@@ -3,6 +3,8 @@ const config = require('../')
 
 const configPath = path.join(__dirname, 'config')
 
+// console.log(config.getConfigFilenames(path.join(configPath, 'advanced'), 'domain1.dev'))
+
 console.log(`========== env: ${process.env.NODE_ENV} ==========`)
 console.log(config)
 
