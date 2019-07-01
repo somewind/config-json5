@@ -20,7 +20,7 @@ config/default.json
 config/default.json5
 ```
 
-When `process.env.NODE_ENV` is `com.somewind.domain1.dev` or `domain1.dev`, it will merge the following configurations in a top-dom order.(use `lodash.merge`)
+When `process.env.NODE_ENV` is `com.somewind.domain1.dev` or `domain1.dev`, it will merge the following configurations in a top-dom order.(use `lodash.merge`, array is override)
 
 ```js
 config/advanced/default.js
