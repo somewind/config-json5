@@ -67,8 +67,8 @@ module1/config/default.js
 
 ```js
 import config from 'config-json5'
-// dirname must be full path
-// env default is process.env.NODE_ENV
+// option dirname, must be fullpath or [fullpath0, fullpath1, ...]
+// option env, default is process.env.NODE_ENV
 export default config(__dirname, process.env.TARGET)
 ```
 
