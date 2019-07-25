@@ -7,7 +7,9 @@
   "main": "lib/index.js",
   "scripts": {
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "test": "jest",
+    "prepublishOnly": "npm run test"
   },
   "dependencies": {
     "json5": "^2.1.0",
@@ -22,7 +24,9 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^3.0.1",
+    "jest": "^24.8.0"
   },
   "keywords": [
     "config-json5",
@@ -35,6 +39,11 @@
   "repository": "https://github.com/somewind/config-json5.git",
   "engines": {
     "node": ">=6.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
   },
   "config": {
     "commitizen": {
