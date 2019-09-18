@@ -69,7 +69,17 @@ module1/config/default.js
 import config from 'config-json5'
 // option dirname, must be fullpath or [fullpath0, fullpath1, ...]
 // option env, default is process.env.NODE_ENV
-export default config(__dirname, process.env.TARGET)
+export default config(__dirname, process.env.TARGET, [arg1, arg2, ...argN])
+```
+
+use parameter in config file
+
+```js
+export default (arg1, arg2 ...argN) => ({
+  Customer: {
+    arg1: arg1
+  }
+})
 ```
 
 import from your export code
