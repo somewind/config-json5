@@ -16,3 +16,6 @@ console.log(config.parse(configPath, 'domain1.dev'))
 
 console.log(`========== env: pro ==========`)
 console.log(config.parse(configPath, 'pro'))
+
+console.log(`========== env: part3 ==========`)
+console.log(config.parse(configPath, 'part3'))

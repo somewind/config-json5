@@ -1,6 +1,6 @@
 # config-json5
 
-## Usage
+## Simple Usage
 
 ### Configuration files
 
@@ -53,9 +53,9 @@ config.get('Customer.dbConfig')
 config.has('Customer.dbConfig')
 ```
 
-### Advanced
+## Custom Export
 
-you can use custom `dirname` or `env` to manage your configuration.
+You can use custom `dirname` or `env` to manage your configuration.
 
 ```js
 module1/config
@@ -72,7 +72,7 @@ import config from 'config-json5'
 export default config(__dirname, process.env.TARGET, [arg1, arg2, ...argN])
 ```
 
-use parameter in config file
+Use parameter in config file.
 
 ```js
 export default (arg1, arg2 ...argN) => ({
@@ -82,7 +82,7 @@ export default (arg1, arg2 ...argN) => ({
 })
 ```
 
-import from your export code
+Import from your export code.
 
 ```js
 import config from './module1/config'
@@ -91,6 +91,53 @@ config.Customer.dbConfig
 config.get('Customer.dbConfig')
 config.has('Customer.dbConfig')
 ```
+
+## Split Chunks
+
+Configurations can be split in chunks.
+
+```js
+// default.json
+{
+  "app": {
+    "name": "test",
+    "port": 1234
+  },
+  "database": {
+    "username": "root",
+    "password": "1234"
+  },
+  "logger": {
+    "level": "info"
+  },
+  "domain": "docs.config-json5.org"
+}
+```
+
+`default.json` can be split into the following files
+
+```js
+// @.json
+{
+  "logger": {
+    "level": "info"
+  },
+  "domain": "docs.config-json5.org"
+}
+
+// @app.json
+{
+  "name": "test",
+  "port": 1234
+}
+
+// @database.json
+{
+  "username": "root",
+  "password": "1234"
+}
+```
+
 
 ## License
 
