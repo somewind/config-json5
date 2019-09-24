@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/somewind/config-json5/compare/v1.3.0...v1.3.1) (2019-09-24)
+
+
+### Bug Fixes
+
+* split config not added in root ([95ffd32](https://github.com/somewind/config-json5/commit/95ffd32))
+
+
+
 # [1.3.0](https://github.com/somewind/config-json5/compare/2aaa27f...v1.3.0) (2019-09-23)
 
 
