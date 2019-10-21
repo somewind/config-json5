@@ -1,3 +1,12 @@
+## [1.4.3](https://github.com/somewind/config-json5/compare/v1.3.3...v1.4.3) (2019-10-21)
+
+
+### Features
+
+* support yaml ([58f6f72](https://github.com/somewind/config-json5/commit/58f6f72))
+
+
+
 ## [1.3.1](https://github.com/somewind/config-json5/compare/v1.3.0...v1.3.1) (2019-09-24)
 
 
