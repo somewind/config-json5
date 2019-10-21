@@ -1,8 +1,8 @@
 {
   "name": "config-json5",
-  "version": "1.3.3",
+  "version": "1.4.3",
   "license": "MIT",
-  "description": "configuration control with namespaces and json5/js",
+  "description": "configuration control with namespaces and yaml/json5/js",
   "author": "somewind <neverstopsteps@gmail.com> (https://github.com/somewind)",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "prepublishOnly": "npm run test"
   },
   "dependencies": {
+    "js-yaml": "^3.13.1",
     "json5": "^2.1.0",
     "lodash": "^4.17.13"
   },
@@ -32,6 +33,7 @@
     "config-json5",
     "config",
     "json5",
+    "yaml",
     "node"
   ],
   "bugs": "https://github.com/somewind/config-json5/issues",

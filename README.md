@@ -39,7 +39,7 @@ Note:
 
 * `config/advanced` is the advanced configuration, it overwrites step by step in `Namespace Order`.
 * `config/*.EXT` is the highest priority configuration, follows the `Namespace Order`, and overrides the advanced configuration
-* Same filename with different file ext, priority order is `json > json5 > js`.
+* Same filename with different file ext, priority order is `yaml > json > json5 > js`.
 * Different file paths, priority order is `. > /`
 * `json` ext file format is same as `json5`.
 
