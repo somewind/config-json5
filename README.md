@@ -92,7 +92,7 @@ config.get('Customer.dbConfig')
 config.has('Customer.dbConfig')
 ```
 
-## Split Chunks
+## Config Split
 
 Configurations can be split in chunks.
 
