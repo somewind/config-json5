@@ -1,10 +1,11 @@
 {
   "name": "config-json5",
-  "version": "1.4.3",
+  "version": "1.4.7",
   "license": "MIT",
   "description": "configuration control with namespaces and yaml/json5/js",
   "author": "somewind <neverstopsteps@gmail.com> (https://github.com/somewind)",
   "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
