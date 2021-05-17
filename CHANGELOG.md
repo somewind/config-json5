@@ -1,3 +1,12 @@
+## [1.4.8](https://github.com/somewind/config-json5/compare/1.4.7...1.4.8) (2021-05-17)
+
+
+### Bug Fixes
+
+* add default.yaml ([493776d](https://github.com/somewind/config-json5/commit/493776d))
+
+
+
 ## [1.4.3](https://github.com/somewind/config-json5/compare/v1.3.3...v1.4.3) (2019-10-21)
 
 
