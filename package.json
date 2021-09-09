@@ -1,6 +1,6 @@
 {
   "name": "config-json5",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "license": "MIT",
   "description": "configuration control with namespaces and yaml/json5/js",
   "author": "somewind <neverstopsteps@gmail.com> (https://github.com/somewind)",
@@ -41,7 +41,7 @@
   "homepage": "https://github.com/somewind/config-json5",
   "repository": "https://github.com/somewind/config-json5.git",
   "engines": {
-    "node": ">=6.9"
+    "node": ">=10"
   },
   "husky": {
     "hooks": {
