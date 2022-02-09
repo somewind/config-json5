@@ -1,6 +1,6 @@
 {
   "name": "config-json5",
-  "version": "1.4.9",
+  "version": "1.4.10",
   "license": "MIT",
   "description": "configuration control with namespaces and yaml/json5/js",
   "author": "somewind <neverstopsteps@gmail.com> (https://github.com/somewind)",
