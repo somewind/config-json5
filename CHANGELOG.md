@@ -1,3 +1,14 @@
+## [1.4.11](https://github.com/somewind/config-json5/compare/1.4.8...1.4.11) (2022-03-23)
+
+
+### Bug Fixes
+
+* env should match with whole dir name ([725bef1](https://github.com/somewind/config-json5/commit/725bef1))
+* optimization of environment variable matching problems ([1f027de](https://github.com/somewind/config-json5/commit/1f027de))
+* read dir error ([c40ff3d](https://github.com/somewind/config-json5/commit/c40ff3d))
+
+
+
 ## [1.4.8](https://github.com/somewind/config-json5/compare/1.4.7...1.4.8) (2021-05-17)
 
 
